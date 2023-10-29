@@ -1,0 +1,33 @@
+/* Importación de la fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilo básico para la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Poppins;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    font-family: Poppins;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    font-family: Poppins;
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    background-color: #f2f2f2;
+    font-family: Poppins;
+}
+
+/* Estilo para filas alternas */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    font-family: Poppins;
+}
